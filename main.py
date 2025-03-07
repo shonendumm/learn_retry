@@ -58,7 +58,7 @@ def retry_if_result_none():
         return True
     elif randint <= 5: 
         logger.info("Answer is not None")
-        return False
+        return 10
     else:
         return None
         
