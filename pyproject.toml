@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "learn-retry"
+version = "0.1.0"
+description = ""
+authors = ["soohian <shonendumm@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+tenacity = "^9.0.0"
+typer = "^0.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
